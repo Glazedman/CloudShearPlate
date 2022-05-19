@@ -19,4 +19,14 @@ class CloudShearPlateApplicationTests {
     void TestTwo() {
         System.out.println("Github Actions 测试二");
     }
+
+    @Test
+    void TestThree() {
+        System.out.println("Github Actions 测试三");
+    }
+
+    @Test
+    void TestFour() {
+        System.out.println("Github Actions 测试四");
+    }
 }
