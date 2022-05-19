@@ -18,7 +18,7 @@ jobs:
     steps: 
       - uses: TobKed/github-forks-sync-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           upstream_repository: LiuLiRenM/CloudShearPlate
           target_repository: Glazedman/CloudShearPlate
           upstream_branch: dev
