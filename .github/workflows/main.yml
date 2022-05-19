@@ -16,13 +16,10 @@ jobs:
   fork_sync:
     runs-on: ubuntu-latest
     steps: 
-      - uses: TobKed/github-forks-sync-action@master
+      - uses: tgymnich/fork-sync@v1.2.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          upstream_repository: LiuLiRenM/CloudShearPlate
-          target_repository: Glazedman/CloudShearPlate
-          upstream_branch: dev
-          target_branch: dev
-          force: true
-          tags: true
+          owner: LiuLiRenM/CloudShearPlate
+          head: dev
+          base: dev
     
